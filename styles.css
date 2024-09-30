@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #174c84;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #174c84;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.description {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  margin: 0%;
+}
+
+h {
+  margin: 8px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+  padding: 16px 0px;
+}
+
+.category {
+  width: 24%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1f6589;
+  color: #fff;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+/* Adjust for small screens */
+@media (max-width: 600px) {
+  header {
+    background: #28a745;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 14px; /* Smaller font for footer on small screens */
+    background: #28a745;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    padding: 16px 0px;
+  }
+
+  .category {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5cd85c;
+    color: #fff;
+    border-radius: 16px;
+  }
+}
+
+/* Adjust for medium screens */
+@media (min-width: 601px) and (max-width: 1250px) {
+  main {
+    padding: 30px;
+  }
+
+  header {
+    background: #6f42c1;
+  }
+
+  footer {
+    font-size: 16px;
+    background: #6f42c1;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    padding: 16px 0px;
+  }
+
+  .category {
+    width: 47%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a77bde;
+    color: #fff;
+    border-radius: 16px;
+  }
+}
